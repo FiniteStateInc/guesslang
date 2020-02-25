@@ -179,3 +179,7 @@ print(name)  # >>> Erlang
   [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio)
 
 * Guesslang — Copyright (c) 2017 Y. SOMDA, [MIT License](LICENSE)
+
+## MODIFICATIONS BY FINITE STATE:
+
+The current upstream version of this repo is broken. It has a hard-pinned dependency on TensorFlow 1.7.0rc1, which is no longer provided by pip. In order to work around this, this fork of the repo updates that requirement to the latest version of TensorFlow 1.x that is still available in pip.  

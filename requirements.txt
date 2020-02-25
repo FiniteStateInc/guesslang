@@ -1,2 +1,2 @@
-tensorflow==1.7.0rc1
+tensorflow==1.13.1
 numpy
